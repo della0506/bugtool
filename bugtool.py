@@ -121,7 +121,7 @@ def bugtool():
             }
         }
     }
-    send = requests.post('https://open.feishu.cn/open-apis/bot/v2/hook/0da6a938-d932-4e91-86a0-86a3d43ecf11',json.dumps(p))
+    send = requests.post('https://open.feishu.cn/open-apis/bot/v2/hook/68bff56e-0bfc-425b-b259-2467c0377e04',json.dumps(p))
     print(send.status_code,send.json())
     return send
 
