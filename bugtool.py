@@ -62,7 +62,7 @@ def bugtool():
         "elements": [{
                 "tag": "div",
                 "text": {
-                        "content": "📒 **SSO**",
+                        "content": "📒 **SSO & User Center**",
                         "tag": "lark_md"
                 }
             },
@@ -121,7 +121,7 @@ def bugtool():
             }
         }
     }
-    send = requests.post('https://open.feishu.cn/open-apis/bot/v2/hook/0da6a938-d932-4e91-86a0-86a3d43ecf11',json.dumps(p))
+    send = requests.post('https://open.feishu.cn/open-apis/bot/v2/hook/0665e944-2779-4cc5-9aa1-7b7e0663fa9f',json.dumps(p))
     print(send.status_code,send.json())
     return send
 
